@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cascading Style Sheet</title>
+<style type="text/css">
+
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: white;
+   height: 10%;
+   padding-left: 160px;
+}
+.leftalign {
+	padding-left: 5%;
+}
+ 
+.header {
+  background-color: #666;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.container {
+  margin-left: 160px; 
+  padding: 0px 10px;
+  padding-bottom: 10%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+input[type="submit"]{ 
+	background: #111;
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 30px;
+	width: 150px;
+	font: bold 10px arial, sans-serif;
+	text-shadow:none;
+}
+input[type="button"]{ 
+	background: #111;
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 30px;
+	width: 150px;
+	font: bold 10px arial, sans-serif;
+	text-shadow:none;
+}
+
+ </style>
+ </head>
+ <body>
+ 
+ </body>
+ </html>
